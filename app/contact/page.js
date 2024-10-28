@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import ContactForm from "../_components/contactForm";
+import ContactForm from "../_components/ContactForm";
 import Link from "next/link";
 
 function page() {
