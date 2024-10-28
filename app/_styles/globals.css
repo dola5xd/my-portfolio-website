@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .active {
+    @apply text-dark-gray-500 relative after:absolute after:-bottom-2 after:content-[""] after:left-0 after:h-[1px] lg:after:h-1 after:transition-all after:duration-500 after:w-full hover:after:opacity-0 after:opacity-100 after:bg-dark-gray-300;
+  }
+  .link-line {
+    @apply *:relative *:after:absolute *:after:-bottom-2 *:after:content-[""] *:after:left-0  *:after:h-[1px] lg:*:after:h-1 *:after:transition-all *:after:duration-500 *:after:w-full *:hover:after:opacity-100 *:after:opacity-0 *:after:bg-dark-gray-800;
+  }
+  .gradient-text {
+    @apply bg-gradient-to-r from-dark-gradient-blue  to-dark-gradient-purple inline-block text-transparent bg-clip-text;
+  }
+
+  .loader {
+    width: 100px;
+    aspect-ratio: 1;
+    border: 10px solid #000;
+    box-sizing: border-box;
+    background:
+      radial-gradient(farthest-side at right, #fff 98%, #0000) 20% 50%/40% 80%,
+      radial-gradient(farthest-side at left, #fff 98%, #0000) 80% 50%/40% 80%,
+      #000;
+    background-repeat: no-repeat;
+    filter: blur(4px) contrast(10);
+    animation: l18 0.8s infinite alternate;
+  }
+}
+@keyframes l18 {
+  0%,
+  20% {
+    background-position:
+      20% 50%,
+      80% 50%;
+  }
+  100% {
+    background-position:
+      80% 50%,
+      20% 50%;
+  }
+}
