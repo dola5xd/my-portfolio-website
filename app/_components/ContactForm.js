@@ -54,15 +54,15 @@ function ContactForm() {
 
   if (sending)
     return (
-      <h1 className="gradient-text text-center text-2xl lg:text-5xl">
+      <h1 className="gradient-text text-center text-2xl xl:text-5xl">
         Thanks for your email! <span>I will response soon!</span>
       </h1>
     );
 
   return (
-    <form onSubmit={handleSubmit} className="lg:w-1/2 md:w-2/3 mx-auto">
+    <form onSubmit={handleSubmit} className="xl:w-1/2 md:w-2/3 mx-auto">
       <div className="flex flex-wrap -m-2">
-        <div className="p-1 lg:p-2 w-1/2">
+        <div className="p-1 xl:p-2 w-1/2">
           <div className="relative">
             <label
               htmlFor="name"
@@ -81,7 +81,7 @@ function ContactForm() {
             />
           </div>
         </div>
-        <div className="p-1 lg:p-2 w-1/2">
+        <div className="p-1 xl:p-2 w-1/2">
           <div className="relative">
             <label
               htmlFor="email"
@@ -100,7 +100,7 @@ function ContactForm() {
             />
           </div>
         </div>
-        <div className="p-1 lg:p-2 w-full">
+        <div className="p-1 xl:p-2 w-full">
           <div className="relative">
             <label
               htmlFor="message"

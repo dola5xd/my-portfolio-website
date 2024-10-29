@@ -6,13 +6,13 @@ import { motion } from "framer-motion";
 
 function page() {
   return (
-    <main className="flex flex-col-reverse lg:flex-row items-center justify-between py-14 lg:py-32 px-10 sm:px-12 lg:px-32 pointer-events-none">
+    <main className="flex flex-col-reverse xl:flex-row items-center justify-between xl:gap-7 py-14 xl:py-32 px-8 sm:px-12 xl:px-32 pointer-events-none text-nowrap">
       <motion.div
         variants={{ init: { opacity: 0 }, animate: { opacity: 1 } }}
         transition={{
           duration: 1,
         }}
-        className="text-base sm:text-3xl lg:text-6xl flex flex-col gap-2 sm:gap-4 *:pointer-events-none"
+        className="text-xl sm:text-3xl lg:text-6xl flex flex-col gap-2 sm:gap-4 *:pointer-events-none"
         initial={"init"}
         animate={"animate"}
       >

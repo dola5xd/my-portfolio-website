@@ -3,8 +3,8 @@ import "./_styles/globals.css";
 import Header from "./_components/Header";
 
 export const metadata = {
-  title: "Welcome to my portiflio",
-  description: "Hi, its Adel Yasser and welcome to my portifolio",
+  title: "Welcome to my portfolio",
+  description: "Hi, its Adel Yasser and welcome to my portfolio",
 };
 
 const poppins = Poppins({

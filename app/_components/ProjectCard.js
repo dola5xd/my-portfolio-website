@@ -22,7 +22,7 @@ function ProjectCard({ project }) {
   const image = project.image ? urlFor(project.image)?.url() : null;
 
   return (
-    <div className="lg:w-[calc(100%_/_3_-_50px)] h-[550px]sm:h-[500px] bg-[#363636] pb-10 rounded-lg flex flex-col justify-between duration-500 hover:scale-105">
+    <div className="w-full lg:w-[calc(100%_-_150px)] xl:w-[calc(100%_/_3_-_50px)] xl:min-h-[550px] bg-[#363636] pb-10 rounded-lg flex flex-col justify-between duration-500 hover:scale-105">
       <div className="relative w-full aspect-video">
         <Image
           src={image}
@@ -31,7 +31,7 @@ function ProjectCard({ project }) {
           className="object-cover rounded-t-lg"
         />
       </div>
-      <div className="px-5 sm:px-7 flex flex-col gap-4 py-3 sm:py-0">
+      <div className="px-5 sm:px-7 flex flex-col gap-4 py-3">
         <h1 className="font-medium text-xl capitalize">{title}</h1>
         <p className="font-light text-base sm:text-lg text-dark-gray-500">
           {description}

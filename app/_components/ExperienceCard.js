@@ -6,10 +6,10 @@ import { FaArrowRight } from "react-icons/fa6";
 function ExperienceCard({ data }) {
   const { title, date, type, location, city } = data;
   return (
-    <div className="flex lg:items-center flex-col sm:gap-5 lg:gap-0 lg:flex-row justify-between border-b border-b-dark-gray-500/50 pb-7">
+    <div className="flex xl:items-center flex-col sm:gap-5 xl:gap-0 xl:flex-row justify-between border-b border-b-dark-gray-500/50 pb-7">
       <div className="flex flex-col sm:gap-4">
         <h1 className="font-bold text-sm sm:text-xl">{title}</h1>
-        <div className="flex flex-col sm:flex-row items-center gap-5 py-5 sm:gap-10 justify-between sm:text-nowrap lg:text-balance">
+        <div className="flex flex-col sm:flex-row items-center gap-5 py-5 sm:gap-10 justify-between sm:text-nowrap xl:text-balance">
           {location && (
             <h3 className="flex items-center gap-4">
               <span>
@@ -31,13 +31,13 @@ function ExperienceCard({ data }) {
           )}
         </div>
       </div>
-      <div className="flex flex-col items-center lg:items-end gap-7">
+      <div className="flex flex-col items-center xl:items-end gap-7">
         {type && (
-          <div className="bg-dark-gray-500 text-dark-background py-2 lg:py-3 px-5 lg:px-7 rounded-3xl font-semibold">
+          <div className="bg-dark-gray-500 text-dark-background py-2 xl:py-3 px-5 xl:px-7 rounded-3xl font-semibold">
             {type}
           </div>
         )}
-        <p className="flex items-center gap-2 sm:gap-7 text-sm lg:text-base">
+        <p className="flex items-center gap-2 sm:gap-7 text-sm xl:text-base">
           <span className="flex items-center gap-2 sm:gap-4 text-nowrap">
             <MdOutlineDateRange />
             {date.from}

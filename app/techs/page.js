@@ -46,12 +46,12 @@ function page() {
       ref={ref}
       className="py-20 px-10 sm:px-28 flex flex-col items-center gap-10"
     >
-      <h1 className="font-bold text-3xl lg:text-5xl">My Tech Stack</h1>
-      <p className="text-base lg:text-2xl text-dark-gray-800">
+      <h1 className="font-bold text-3xl xl:text-5xl">My Tech Stack</h1>
+      <p className="text-base xl:text-2xl text-dark-gray-800">
         Technologies I’ve been working with recently
       </p>
       <motion.ul
-        className="px-20 py-5 lg:py-10 flex items-center gap-y-10 justify-center flex-wrap"
+        className="px-20 py-5 xl:py-10 flex items-center gap-y-10 justify-center flex-wrap"
         ref={scope}
       >
         {tech.map((item) => (
