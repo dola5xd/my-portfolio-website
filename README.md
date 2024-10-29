@@ -26,10 +26,6 @@ To run this project, you will need to add the following environment variables to
 
 `RESEND_RECEIVER_EMAIL`
 
-## Demo
-
-Insert gif or link to demo
-
 ### Visit the website from here:
 
 #### https://my-portfolio-website-orpin.vercel.app/
