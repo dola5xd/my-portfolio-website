@@ -1,6 +1,7 @@
 import { Poppins } from "next/font/google";
 import "./_styles/globals.css";
 import Header from "./_components/Header";
+import { headers } from "next/headers";
 
 export const metadata = {
   title: "Welcome to my portfolio",

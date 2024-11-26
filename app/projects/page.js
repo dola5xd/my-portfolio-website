@@ -10,13 +10,13 @@ async function page() {
   const projects = await getProjects();
 
   return (
-    <main className="py-20 px-7 sm:px-14 lg:px-32 flex flex-col items-start gap-5 xl:gap-7 w-full">
-      <h1 className="font-bold text-2xl xl:text-5xl">Projects</h1>
+    <main className="flex flex-col items-start w-full gap-5 py-48 lg:gap-3 px-7 sm:px-14 xl:px-32 xl:gap-7">
+      <h1 className="text-2xl font-bold lg:text-3xl xl:text-5xl">Projects</h1>
       <p className="text-xl xl:text-2xl text-dark-gray-800">
         Things I’ve built so far
       </p>
 
-      <div className="flex items-center flex-col xl:flex-row gap-10 flex-wrap justify-center w-full">
+      <div className="flex flex-col flex-wrap items-center justify-center w-full gap-10 lg:flex-row py-7">
         {projects.map((project) => (
           <ProjectCard project={project} key={project.title} />
         ))}

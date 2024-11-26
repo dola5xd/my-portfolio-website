@@ -5,13 +5,13 @@ import { Education, Info } from "../_lib/userInfo";
 
 function page() {
   return (
-    <main className="py-20 px-10 xl:px-32 flex flex-col gap-20">
+    <main className="flex flex-col gap-20 px-10 py-44 xl:px-32">
       <div className="flex flex-col gap-7">
-        <h1 className="text-3xl xl:text-5xl font-bold animate-pulse">
+        <h1 className="text-3xl font-bold xl:text-5xl animate-pulse">
           About Me
         </h1>
-        <div className="flex flex-col-reverse xl:flex-row justify-between items-center">
-          <p className="text-sm  sm:text-base leading-8 xl:w-1/2 flex flex-col gap-5 sm:gap-3">
+        <div className="flex flex-col-reverse items-center justify-between xl:flex-row">
+          <p className="flex flex-col gap-5 text-sm leading-8 sm:text-base xl:w-1/2 sm:gap-3">
             <span>
               Hello! I’m a passionate web developer with a strong focus on
               building dynamic and responsive web applications using Next.js,
@@ -47,7 +47,7 @@ function page() {
         </div>
       </div>
       <div className="flex flex-col gap-7">
-        <h1 className="text-xl sm:text-3xl xl:text-5xl font-bold animate-pulse">
+        <h1 className="text-xl font-bold sm:text-3xl xl:text-5xl animate-pulse">
           Work Experience
         </h1>
         <div className="flex flex-col gap-10 py-10">
@@ -57,7 +57,7 @@ function page() {
         </div>
       </div>
       <div className="flex flex-col gap-7">
-        <h1 className="text-xl sm:text-3xl xl:text-5xl font-bold animate-pulse">
+        <h1 className="text-xl font-bold sm:text-3xl xl:text-5xl animate-pulse">
           Education
         </h1>
         <div className="flex flex-col gap-10 py-10">

@@ -60,7 +60,7 @@ function ContactForm() {
     );
 
   return (
-    <form onSubmit={handleSubmit} className="xl:w-1/2 md:w-2/3 mx-auto">
+    <form onSubmit={handleSubmit} className="xl:w-1/2 lg:w-2/3 mx-auto">
       <div className="flex flex-wrap -m-2">
         <div className="p-1 xl:p-2 w-1/2">
           <div className="relative">

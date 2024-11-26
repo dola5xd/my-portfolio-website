@@ -44,14 +44,14 @@ function page() {
       animate={controls}
       transition={{ duration: 0.25, delay: 0.25 }}
       ref={ref}
-      className="py-20 px-10 sm:px-28 flex flex-col items-center gap-10"
+      className="flex flex-col items-center gap-10 px-10 py-44 sm:px-28"
     >
-      <h1 className="font-bold text-3xl xl:text-5xl">My Tech Stack</h1>
+      <h1 className="text-3xl font-bold xl:text-5xl">My Tech Stack</h1>
       <p className="text-base xl:text-2xl text-dark-gray-800">
         Technologies I’ve been working with recently
       </p>
       <motion.ul
-        className="px-20 py-5 xl:py-10 flex items-center gap-y-10 justify-center flex-wrap"
+        className="flex flex-wrap items-center justify-center px-20 py-5 xl:py-10 gap-y-10"
         ref={scope}
       >
         {tech.map((item) => (

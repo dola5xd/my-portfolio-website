@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 function page() {
   return (
-    <main className="flex flex-col-reverse xl:flex-row items-center justify-between xl:gap-7 py-14 xl:py-32 px-8 sm:px-12 xl:px-32 pointer-events-none text-nowrap">
+    <main className="flex flex-col-reverse items-center justify-between px-8 xl:flex-row xl:gap-7 py-14 xl:py-32 sm:px-12 xl:px-32 text-nowrap">
       <motion.div
         variants={{ init: { opacity: 0 }, animate: { opacity: 1 } }}
         transition={{
@@ -35,7 +35,7 @@ function page() {
           initial={{ x: "-120%", opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.6 }}
-          className="ml-12 gradient-text font-medium"
+          className="ml-12 font-medium gradient-text"
         >
           Adel Yasser
         </motion.h1>
@@ -49,9 +49,14 @@ function page() {
         </motion.h4>
       </motion.div>
       <motion.div
-        variants={{ init: { opacity: 0 }, animate: { opacity: 1 } }}
         transition={{ duration: 1, delay: 0.6 }}
-        className="h-[250px] sm:h-[350px] rounded-full relative aspect-square"
+        className="h-[250px] sm:h-[350px] rounded-full relative aspect-square contrast-125 z-40"
+        whileHover={{
+          rotate: 360 * 3,
+          scale: 0.9,
+          transition: { duration: 1 },
+        }}
+        whileTap={{ scale: 1.2 }}
         initial={{ scale: 0, x: "100%" }}
         animate={{ scale: 1, x: 0 }}
       >
