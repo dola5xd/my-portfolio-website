@@ -92,6 +92,7 @@ Run these scripts to manage the project:
 ## 🌟 **Features**
 
 <<<<<<< HEAD
+
 - Fully responsive design for mobile and desktop.
 - Animations and transitions for a smooth user experience.
 - Dynamic content powered by Sanity.io.
@@ -99,10 +100,14 @@ Run these scripts to manage the project:
 
 ---
 
+## 🎬 Demo
+
+You can try out the live demo of the My portfolio application here:  
+[My portfolio Demo](https://my-portfolio-website-orpin.vercel.app/)
+
+---
+
 ## 📜 **License**
-=======
-### Visit the website from here:
->>>>>>> 958b0953f27736afa326fab6799e9151c575b669
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
